@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+*{
+  background-color:  rgb(170, 250, 227);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.search-bar{
+  width: 400px;
+  background-color: white;
+}
+
+select {
+  margin: 0px 10px;
+  background-color: white;
+}
+
+.column-title {
+  font-weight: bold;
+}
+
+.gridRow {
+  display: grid;
+  /* gap: 5px; */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 50px 20px;
+
+}
+
+.innerRow {
+  background-color: white;
+}
+
+a {
+  background-color: white;
+}
+
+.plantInfoList{
+  margin-left: 10px;
+
 }
